@@ -1,3 +1,7 @@
+v8.50.1 - October 13, 2023
+
+* [`e0c5c46`](https://github.com/eslint/eslint/commit/e0c5c464f517ddab28a7b78646de7be6f7987b2c) First attempt at making an eslint cache shareable. (cs6cs6)
+
 v8.50.0 - September 22, 2023
 
 * [`f8a8a2d`](https://github.com/eslint/eslint/commit/f8a8a2d6b45c82f94a574623759b6e3d2af193f3) chore: upgrade @eslint/js@8.50.0 (#17599) (Milos Djermanovic)
