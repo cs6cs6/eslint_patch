@@ -113,6 +113,7 @@ Caching:
   --cache                         Only check changed files - default: false
   --cache-file path::String       Path to the cache file. Deprecated: use --cache-location - default: .eslintcache
   --cache-location path::String   Path to the cache file or directory
+  --shareable-cache Boolean       By default, an eslintcache contains full file paths and thus cannot readily be shared across developers or ci machines. "False" is that default. "True" changes the internal storage to store a relative path to the process execution directory, thus making the eslintcache shareable across developers and ci machines. . If you change this setting, you must regenerate your entire eslint cache.
   --cache-strategy String         Strategy to use for detecting changed files in the cache - either: metadata or content - default: metadata
 
 Miscellaneous:
